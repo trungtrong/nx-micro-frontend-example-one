@@ -1,4 +1,6 @@
 # MonorepoExampleOne
+# Ref:
+[ExampleURL](https://itnext.io/building-angular-micro-frontend-with-ngrx-state-sharing-and-nx-cli-7e9af10ebd03) 
 
 This project was generated using [Nx](https://nx.dev).
 
