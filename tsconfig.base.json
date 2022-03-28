@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-example-one/shared/data-store": [
+        "libs/shared/data-store/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
