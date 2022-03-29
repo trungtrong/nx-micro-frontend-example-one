@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GalleryFacade } from '@monorepo-example-one/shared/data-store';
 
 @Component({
   selector: 'monorepo-example-one-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'shell';
+  constructor(private galleryFacade: GalleryFacade) {}
+  ngOnInit(): void {
+    this.galleryFacade.init();
+  }
 }
